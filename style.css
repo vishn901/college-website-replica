@@ -324,4 +324,40 @@ section {
   filter: none;
   transform: scale(1.1);
 }
-
+.Departments{
+   
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    gap: 40px;
+}
+.program{
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    gap: 40px;
+  }
+  .vishnu{
+    text-align: center;
+    
+    font-weight: bold;
+    jusdtify-content: center;
+  }
+  .vardhan{
+    text-align: center;
+    ;
+    font-weight: bold;
+    justify-content: center;
+    }
+    .pig{
+        text-align: center;
+        
+        font-weight: bold;
+        justify-content: center;
+      }
+    .home{
+        text-align: center;
+        
+        font-weight: bold;
+        justify-content: center;
+    }
