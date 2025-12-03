@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    border: 3px solid black;
+    background-color: lightgray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 70px solid green;
+    gap: 40px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: none;
+    gap: 40px;
+    
+    
+}
+
+.cname {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+
+.banner {
+    position: relative;
+}
+
+
+.content h1 {
+    text-align: center;
+    color: red;
+}
+
+.content h2 {
+    text-align: center;
+    color: red;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+}
+
+.companies img {
+    padding: 25px;
+}
+
+.content h3 {
+    text-align: center;
+     color: brown;
+    font-weight: bold;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+
+}
+
+.main-leadership h3 {
+    color: red;
+
+}
+
+.main-leadership h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+}
+
+.faculty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.department{
+    text-align: center;
+    color:blueviolet;
+    font-weight: bold;
+
+}
+.content p{
+    text-align: center;
+    font-size: 20px;
+   color: black;
+   gap: 20px;
+}
+.content h6{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.faculty img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.faculty h1{
+    text-align: center;
+    color: brown;
+}
+.banner h1{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+.program{
+    text-align: center;
+    padding: 15px;
+
+    
+}
+.slideshow{
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    justify-content:space-between;
+}
+.slideshow img{
+    padding: 5px;
+    height: 250px;
+    width: 380px;
+}
+.mission{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.mission1{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.address{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+
+}   
+.address p{
+    text-align: center;
+    font-size: 20px;
+   color: black;
+   gap: 20px;
+}
+.programs{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.programs p{
+    text-align: center;
+    font-size: 20px;
+   color: black;
+   gap: 20px;
+   font-weight: normal;
+}
+.main-leadership h3{
+    color: royalblue;
+}
+.main-leadership h2{
+    color: royalblue;
+}
+.banner h6{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+}  
+.containerbx {
+  
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.boxvm {
+  /*background-color: white;*/
+  border: 1px solid #d9a88e;
+  padding: 40px 30px;
+  width: 570px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05); 
+  text-align: center;
+  position: relative;
+}
+
+.boxvm h1 {
+  font-family:'DM Serif Display';
+  color: #1a1a1a;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.boxvm p {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+.icon-container hr {
+  flex: 2;
+  border: none;
+  height: 2px;
+  background-color: #d9a88e;
+}
+
+.icon {
+  font-size: em;
+  color: #d38b5d;
+}
+
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f7fcfc;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: var(--menu-bg-color);
+ /* text-transform: uppercase;*/
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--secondary-color);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+.about-img {
+  position: relative;
+  
+  transition: 0.5s;
+}
+.about-img img {
+  max-width: 100%;
+  border: 4px solid rgba(4, 196, 255, 0.664);
+  position: relative;
+  
+}
+.recruiters .recruiters-wrap {
+  border-top: 1px solid #f1eeed;
+  border-left: 1px solid #f1eeed;
+}
+
+.recruiters .recruiters-logo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--border-color); /*#f1eeed;*/
+  border-bottom: 1px solid var(--border-color); /*#f1eeed;*/
+  overflow: hidden;
+  background: #fff;
+  height: 100px;
+}
+
+.recruiters .recruiters-logo img {
+  transition: all 0.3s ease-in-out;
+  height: 36px;
+  filter: grayscale(100%);
+}
+
+.recruiters .recruiters-logo:hover img {
+  filter: none;
+  transform: scale(1.1);
+}
+
